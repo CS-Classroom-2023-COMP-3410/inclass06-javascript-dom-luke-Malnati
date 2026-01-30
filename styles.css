@@ -1,0 +1,17 @@
+body{
+    
+    background-color: rgb(43, 24, 60);
+}
+
+.card{
+    font-size: 120px;
+    
+}
+#theGame{
+    padding:10px;
+    justify-content: center;
+}
+#disclaimer{
+    font-size: x-small;
+    padding-bottom: 10px;
+}

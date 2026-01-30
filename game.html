@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        
+        <meta charset="UTF-8" />
+        <title>Matching Game</title>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <p style="color:white">you have to press shuffle BEFORE you play and reload to reset</p>
+        <p id="moveCounter" style="color:white">cards flipped: 0</p>
+        <p id="pairCounter" style="color:white">pairs found: 0</p>
+        <p id="timer" style="color:white">time elapsed: 0</p>
+        <p id="disclaimer" style="color:white">also the timer only updates when you click idk</p>
+        
+        <button onclick="shuffle()" class="shuffleButton">START</button>
+        
+        <table id="theGame">
+            <tr id="row1">
+                <td><button onclick="myClick(0)" class="card" id="0">&#127136;</button></td>
+                <td><button onclick="myClick(1)" class="card" id="1">&#127136;</button></td>
+                <td><button onclick="myClick(2)" class="card" id="2">&#127136;</button></td>
+                <td><button onclick="myClick(3)" class="card" id="3">&#127136;</button></td>
+            </tr>
+            <tr id="row2">
+                <td><button onclick="myClick(4)" class="card" id="4">&#127136;</button></td>
+                <td><button onclick="myClick(5)" class="card" id="5">&#127136;</button></td>
+                <td><button onclick="myClick(6)" class="card" id="6">&#127136;</button></td>
+                <td><button onclick="myClick(7)" class="card" id="7">&#127136;</button></td>
+            </tr id="row3">
+            <tr>
+                <td><button onclick="myClick(8)" class="card" id="8">&#127136;</button></td>
+                <td><button onclick="myClick(9)" class="card" id="9">&#127136;</button></td>
+                <td><button onclick="myClick(10)" class="card" id="10">&#127136;</button></td>
+                <td><button onclick="myClick(11)" class="card" id="11">&#127136;</button></td>
+            </tr>
+            <tr id="row4">
+                <td><button onclick="myClick(12)" class="card" id="12">&#127136;</button></td>
+                <td><button onclick="myClick(13)" class="card" id="13">&#127136;</button></td>
+                <td><button onclick="myClick(14)" class="card" id="14">&#127136;</button></td>
+                <td><button onclick="myClick(15)" class="card" id="15">&#127136;</button></td>
+            </tr>
+        </table>
+
+    </body>
+
+
+
+</html>
